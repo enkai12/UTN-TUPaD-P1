@@ -1,12 +1,22 @@
-""" 6) Crear una lista con números del 10 al 30 (incluído), haciendo saltos de 5 en 5 y mostrar por
-pantalla los dos primeros. """
+""" 7) Reemplazar los dos valores centrales (índices 1 y 2) de la lista “autos” 
+por dos nuevos valores. """
 
-numeros = list(range(10, 31, 5))
+autos = ["sedan", "polo", "suran", "gol"]
 
-print(numeros)
+autos[1] = "chevrolet"
 
-print(numeros[:2]) 
-# muestra los 2 primeros valores, desde el inicia hasta el indice 1, sin incluir el indice 2
+autos[2] = "audi"
 
+print(autos)
 
+# otra forma, atraves de indexing
 
+elementos = ["blanco", "verde", "azul", "amarillo"]
+
+nuevos_elementos = ["negro", "marron"]
+
+# reemplazo desde el indice 1 al 2. valores centrales
+
+elementos[1:3] = nuevos_elementos 
+
+print(elementos)
