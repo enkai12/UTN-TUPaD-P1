@@ -8,10 +8,10 @@
 # Imprimir la lista resultante por pantalla.
 
 lista_anidada = [
-    15,
-    True,
-    [25.5, 57.9, 30.6],
-    False
+    15,                     # [0]
+    True,                   # [1]
+    [25.5, 57.9, 30.6],     # [2][0, 1, 2]
+    False                   # [3]
 ]
 
 print(lista_anidada)
