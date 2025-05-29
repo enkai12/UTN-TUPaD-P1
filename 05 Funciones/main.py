@@ -89,7 +89,7 @@ def ejecutar_actividad_4():
         return # Termina la ejecución de esta función.
     
     # Convertimos el radio ingresado (que es texto) a un número decimal (float).
-    # ¡ADVERTENCIA! Si el usuario ingresa un texto que no es un número válido (y no es 's'),
+    # Si el usuario ingresa un texto que no es un número válido (y no es 's'),
     # el programa se detendrá aquí con un error (ValueError).
     radio_circulo_numero = float(radio_circulo_texto) 
     
@@ -124,8 +124,8 @@ def ejecutar_actividad_5():
         return
         
     # Convertimos los segundos ingresados (texto) a un número entero (int).
-    # ¡ADVERTENCIA! Si el usuario ingresa un texto que no es un número entero válido,
-    # el programa se detendrá aquí con un error (ValueError).
+    # Si el usuario ingresa un texto que no es un número entero válido,
+    # el programa se detendrá con un error (ValueError).
     segundos_ingresados_numero = int(segundos_ingresados_texto) 
     
     # Llamamos a la función 'segundos_a_horas' para realizar la conversión.
@@ -150,7 +150,7 @@ def ejecutar_actividad_6():
         return
 
     # Convertimos el número ingresado (texto) a un número entero (int).
-    # ¡ADVERTENCIA! Si no es un número entero válido, el programa fallará.
+    # Si no es un número entero válido, el programa fallará.
     numero_para_tabla = int(numero_tabla_texto) 
     
     # Llamamos a la función 'generar_tabla_multiplicar'.
@@ -222,7 +222,7 @@ def ejecutar_actividad_8():
     altura_usuario_texto = input("Ingresa tu altura en metros (ej: 1.75): ")
 
     # Convertimos el peso y la altura a números decimales.
-    # ¡ADVERTENCIA! Si se ingresa texto no numérico, el programa fallará.
+    # Si se ingresa texto no numérico, el programa fallará.
     peso_usuario_numero = float(peso_usuario_texto) 
     altura_usuario_numero = float(altura_usuario_texto) 
     
@@ -247,7 +247,7 @@ def ejecutar_actividad_9():
         return
         
     # Convertimos la temperatura ingresada a un número decimal.
-    # ¡ADVERTENCIA! Si no es un número válido, el programa fallará.
+    # Si no es un número válido, el programa fallará.
     grados_celsius_numero = float(grados_celsius_texto) 
     
     # Llamamos a la función 'celsius_a_fahrenheit' para la conversión.
@@ -271,7 +271,7 @@ def ejecutar_actividad_10():
     tercer_numero_promedio_texto = input("Ingresa el tercer número para el promedio: ")
 
     # Convertimos los tres números ingresados a números decimales.
-    # ¡ADVERTENCIA! Si alguno no es un número válido, el programa fallará.
+    # Si alguno no es un número válido, el programa fallará.
     primer_numero_promedio = float(primer_numero_promedio_texto) 
     segundo_numero_promedio = float(segundo_numero_promedio_texto) 
     tercer_numero_promedio = float(tercer_numero_promedio_texto) 
