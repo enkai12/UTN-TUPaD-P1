@@ -20,11 +20,19 @@ def fibonacci_recursivo(posicion):
     
     def mostrar_serie_fibo(hasta_posicion):
         """
-        muestro la serie completa hasta la posicion especificada
+        mejoro la muestra de forma iterativa para que sea mas eficiente
         """
         
-        print(f"Serie de Fibonacci hasta la posicion {hasta_posicion}:")
+    # valido que el numero no sea negativo
+    if hasta_posicion < 0:
+        print("Ingresa un numero positivo")
+        return
+    
+    print(f"Serie de fibonacci hasta la posicion {hasta_posicion}:")
+    a, b = 0, 1
+    for _ in range(hasta_posicion + 1):
+        print(a, end = " ")
+        a, b = b, a + b             # forma de generar la serie
+    print()                         # salto de linea
         
-        for i in range(hasta_posicion + 1):
-            print(fibonacci_recursivo(i)), end=" ")
-        print()
+        
