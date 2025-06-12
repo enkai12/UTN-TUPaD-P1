@@ -49,9 +49,7 @@ la computadora, se conoce como "desbordamiento de pila" o "stack overflow").
 
 Paso Recursivo (else: return n * factorial_recursivo(n - 1)): 
 Es donde la función se llama a sí misma con una versión más pequeña del problema 
-(n-1). Se acerca progresivamente al caso base. """
-
-    
-
+(n-1). Se acerca progresivamente al caso base. 
+"""
 
 
